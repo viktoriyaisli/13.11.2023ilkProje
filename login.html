@@ -1,92 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>My Example</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>My Example</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="myForm" method="post">
+      <p>
+        <label
+          >Name
+          <input type="text" name="customer_name" required />
+        </label>
+      </p>
 
-<!-- CSS -->
-<style>
-    body{
- display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-    }
-.myForm {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: 0.8em;
-width: 30em;
-padding: 80px;
-border: 1px solid #ccc;
-}
+      <p>
+        <label
+          >Phone
+          <input type="number" name="phone_number" />
+        </label>
+      </p>
 
-.myForm * {
-box-sizing: border-box;
+      <p>
+        <label
+          >Email
+          <input type="email" name="email_address" />
+        </label>
+      </p>
 
-}
-
-
-.myForm button {
-padding: 1em;
-border-radius: 0.5em;
-background: #eee;
-border: 1px solid black;
-font-weight: bold;
-margin-left: 40%;
-margin-top: 1.8em;
-}
-
-.myForm button:hover {
-background: #ccc;
-cursor: pointer;
-}
-input{
-padding: 10px;
-margin-left: 10px;
-border: 1px dotted black;
-
-}
-label{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    font-weight: bold;
-    padding: 20px;
-}
-</style>
-
-</head>
-<body>
-
-<div class="myForm" method="post" >
-
-<p>
-<label>Name
-<input type="text" name="customer_name" required>
-</label> 
-</p>
-
-<p>
-<label>Phone 
-<input type="number" name="phone_number">
-</label>
-</p>
-
-<p>
-<label>Email 
-<input type="email" name="email_address">
-</label>
-</p>
-
-
-<a href="index.html"><button>Log In</button></a>
-
-
-
-</div>
-
-</body>
+      <a href="index.html"><button>Log In</button></a>
+    </div>
+  </body>
 </html>
