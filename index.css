@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+}
+.about-me {
+border: 2px dotted rgb(108, 52, 40);
+border-radius: 5px;
+width: 500px;
+padding: 20px 24px;
+margin: 60px;
+background-color: rgb(223, 168, 120,0.5);
+display: flex;
+text-align: center;
+
+}
+.img-girl {
+width: 170px;
+padding-left: 50px ;
+}
+
+.b {
+text-decoration: none;
+font-size: larger;
+color: brown;
+}
+.gif {
+width: 100px;
+height: 100px;
+border-radius: 280px;
+}
+.favorite-act {
+margin: 20px;
+border: 2px dotted rgb(108, 52, 40);
+border-radius: 5px;
+padding: 20px;
+width: 600px;
+text-align: center;
+background-color: rgb(223, 168, 120,0.5);
+
+}
+ul {
+display: inline-block;
+}
+video {
+height: 220px;
+border-radius: 12px;
+}
+.my-fav-act {
+display: flex;
+justify-content: center;
+padding: 16px;
+
+}
+header {
+display: flex;
+background-color: rgb(108, 52, 40);
+font-size: 20px;
+color: white;
+
+}
+
+nav ul {
+padding: 10;
+
+}
+nav li{
+padding: 5px;
+}
+nav {
+float: left;
+width: 15%;
+height: 80vh; /* only for demonstration, should be removed */
+background: rgb(223, 168, 120,0.5);
+padding: 10px;
+}
+.about-me-design{
+display: flex;
+justify-content: center;
+}
+.header-name{
+display: flex;
+align-items: center;
+font-size:60px;
+color: white;
+
+
+}
+.logo{
+height: 150px;
+width: 150px;
+
+}
+footer {
+display: flex;
+padding-top: 16px;
+padding-bottom: 13px;
+width: 100vw;
+background-color: rgb(108, 52, 40);
+justify-content: end;
+color: white;
+}
